@@ -1,0 +1,8 @@
+div 태그는 여러 태그로 묶어서 구역을 나눔
+
+border: 두께 방식 색깔;
+
+width: 가로 길이;
+
+margin-left: auto;
+margin-right: auto;

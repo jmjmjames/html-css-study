@@ -1,0 +1,9 @@
+/* body 노말라이즈, 아래 부분을 지워보세요. */
+/* body에는 margin이 존재한다 */
+body {
+  margin: 0;
+}
+
+div {
+  background-color: red;
+}

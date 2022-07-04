@@ -1,0 +1,30 @@
+body {
+  text-align:center;
+}
+
+div {
+  width:30%;
+  display:inline-block;
+  height:100px;
+  background-color:red;
+  margin:10px;
+}
+
+/* tag가 div 이고 클래스가 a */
+div.a {
+  background-color:green;
+}
+
+/* 클래스 b 인 엘리먼트 */
+.b {
+  background-color:blue;
+}
+
+.black {
+  background-color:black;
+}
+
+/* d 라는 클래스를 가진 동시에 black 이라는 클래스도 가진 엘리먼트 */
+.d.black {
+  background-color:#565656;
+}

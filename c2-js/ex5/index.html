@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>로또 번호 추첨기</title>
+</head>
+<body>
+    <h1>로또 번호 추첨기</h1>
+    <script>
+        var lotto = [];
+        // 중복되는 로또 번호가 존재할 수 있다.
+        for (var i = 0; i < 6; i++) {
+            lotto.push(parseInt(Math.random() * 45 + 1));
+        }
+        document.write(lotto);
+    </script>
+</body>
+</html>

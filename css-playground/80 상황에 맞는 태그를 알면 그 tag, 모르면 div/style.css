@@ -1,0 +1,87 @@
+/* 바디 노말라이즈 */
+body {
+  margin: 0;
+}
+
+/* ul, li 노말라이즈 */
+ul, li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* a 노말라이즈 */
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+/* 커스텀 */
+/* 타이틀 */
+.title {
+  text-align: center;
+}
+
+/* 메뉴 박스 */
+.menu-box {
+  margin-top: 50px;
+  text-align: center;
+}
+
+/* 메뉴 */
+.menu-box > .menu {
+  display: inline-block;
+  padding: 0 10px;
+  background-color: #dfdfdf;
+  border-radius: 10px;
+}
+
+/* 메뉴 아이템 */
+.menu-box > .menu > .menu-item {
+  display: inline-block;
+}
+
+/* 메뉴 아이템 텍스트 */
+.menu-box > .menu > .menu-item > .text {
+  padding: 10px;
+  cursor: pointer;
+  display: block;
+}
+
+/* 마우스로 선택된 메뉴 아이템의 텍스트 */
+.menu-box > .menu > .menu-item:hover > .text {
+  color: white;
+  background-color: black;
+}
+
+/* 메뉴 박스 2 */
+.menu-box-2 {
+  margin-top: 50px;
+  text-align: center;
+}
+
+/* 메뉴 */
+.menu-box-2 > ul {
+  display: inline-block;
+  padding: 0 10px; 
+  background-color: #dfdfdf;
+  border-radius: 10px;
+}
+
+/* 메뉴 아이템 */
+.menu-box-2 > ul > li {
+  display: inline-block;
+}
+
+/* 메뉴 아이템 텍스트 */
+.menu-box-2 > ul > li > a {
+  padding: 10px;
+  display: block;
+  cursor: pointer;
+}
+
+/* 마우스로 선택된 메뉴 아이템의 텍스트 */
+.menu-box-2 > ul > li:hover > a {
+  color: white;
+  background-color: black;
+}

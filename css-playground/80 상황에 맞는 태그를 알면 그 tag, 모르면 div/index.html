@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- v1 -->
+  <h1 class="title">menu-box(v1)</h1>
+  <!-- div.menu-box>div.menu-item*4>div.text{메뉴 아이템 $} -->
+  <div class="menu-box">
+    <div class="menu-item">
+      <div class="text">메뉴 아이템 1</div>
+    </div>
+    <div class="menu-item">
+      <div class="text">메뉴 아이템 2</div>
+    </div>
+    <div class="menu-item">
+      <div class="text">메뉴 아이템 3</div>
+    </div>
+    <div class="menu-item">
+      <div class="text">메뉴 아이템 4</div>
+    </div>
+  </div>
+
+  <!-- v2 -->
+  <h1 class="title">menu-box(v2)</h1>
+
+  <!-- 링크들을 감싸는 용도의 tag는 nav -->
+  <nav class="menu-box">
+    <div class="menu">
+      <div class="menu-item">
+        <div class="text">메뉴 아이템 1</div>
+      </div>
+      <div class="menu-item">
+        <div class="text">메뉴 아이템 2</div>
+      </div>
+      <div class="menu-item">
+        <div class="text">메뉴 아이템 3</div>
+      </div>
+      <div class="menu-item">
+        <div class="text">메뉴 아이템 4</div>
+      </div>
+    </div>
+  </nav>
+
+  <!-- v3 -->
+  <h1 class="title">menu-box(v3)</h1>
+  <!-- 목록이니까 ul, li로 -->
+  <nav class="menu-box">
+    <ul class="menu">
+      <li class="menu-item">
+        <div class="text">메뉴 아이템 1</div>
+      </li>
+      <li class="menu-item">
+        <div class="text">메뉴 아이템 2</div>
+      </li>
+      <li class="menu-item">
+        <div class="text">메뉴 아이템 3</div>
+      </li>
+      <li class="menu-item">
+        <div class="text">메뉴 아이템 4</div>
+      </li>
+    </ul>
+  </nav>
+
+  <!-- v4 -->
+  <h1 class="title">menu-box(v4)</h1>
+  <nav class="menu-box">
+    <ul class="menu">
+      <li class="menu-item">
+        <a href="#" class="text">메뉴 아이템1</a>
+      </li>
+      <li class="menu-item">
+        <a href="#" class="text">메뉴 아이템2</a>
+      </li>
+      <li class="menu-item">
+        <a href="#" class="text">메뉴 아이템3</a>
+      </li>
+      <li class="menu-item">
+        <a href="#" class="text">메뉴 아이템4</a>
+      </li>
+    </ul>
+  </nav>
+
+  <!-- 최종 -->
+  <h1 class="title">menu-box-2(최종, 쓸떼없이 클래스를 많이 사용할 필요가 없다.)</h1>
+  <!-- 클래스를 남발하지 말자 -->
+  <nav class="menu-box-2">
+    <ul>
+      <li>
+        <a href="#">메뉴 아이템 1</a>
+      </li>
+      <li>
+        <a href="#">메뉴 아이템 2</a>
+      </li>
+      <li>
+        <a href="#">메뉴 아이템 3</a>
+      </li>
+      <li>
+        <a href="#">메뉴 아이템 4</a>
+      </li>
+    </ul>
+  </nav>
+</body>
+</html>

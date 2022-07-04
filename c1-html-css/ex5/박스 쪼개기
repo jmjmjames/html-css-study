@@ -1,0 +1,17 @@
+div 태그는 여러 태그로 묶어서 구역을 나눔
+
+border: 두께 방식 색깔;
+
+box
+margin -> border -> padding -> content
+
+weight : 가로
+height: 높이
+border: 두께 방법 색깔;
+backgroud-color: 색깔;
+
+박스테두리를 두껍게 해도 박스의 내용물(content)사이즈는 유지되지만
+박스 전체 크기가 커진다. -> box는 margin 부터 content까지니까!
+
+padding: 내용물과 테두리 사이의 빈틈 -> 박스가 커지며, 콘텐트와 박스 거리감이 생김
+margin: 상자 밖 영역의 옷을 입는 것

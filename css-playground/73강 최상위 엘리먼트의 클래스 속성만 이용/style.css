@@ -1,0 +1,30 @@
+/* 메뉴 박스 */
+.menu-box {
+  text-align: center;
+}
+
+/* 메뉴 */
+.menu-box > div {
+  background-color: #afafafaf;
+  display: inline-block;
+  padding: 0 20px;
+  border-radius: 10px;
+}
+
+/* 메뉴 아이템 */
+.menu-box > div > div {
+  display: inline-block;
+}
+
+/* 메뉴 아이템 텍스트 */
+.menu-box > div > div > div {
+  padding: 20px;
+  display: block;
+  font-weight: bold;
+  letter-spacing: -1px;
+  cursor: pointer;
+}
+.menu-box > div > div:hover > div {
+  background-color: black;
+  color: white;
+}

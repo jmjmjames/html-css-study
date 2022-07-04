@@ -1,0 +1,6 @@
+/* h 시리즈 태그에는 기본적인 margin이 들어있다. 그걸 제거하고 써야 한다. */
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  /* font-size: 1rem;
+  font-weight: normal; */
+}
