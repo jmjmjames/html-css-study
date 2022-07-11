@@ -1,0 +1,66 @@
+
+<link rel="stylesheet" href="./style.css">
+
+<div class="popup-1 fixed top-[0] left-[0] w-[100%] h-[100%] bg-[#000000AA] flex hidden justify-center items-center">
+  <div class="popup-1__content bg-[white] min-w-[200px] max-w-[800px] min-h-[200px] rounded-[10px]">
+    <div class="popup-1__head flex justify-end">
+      <button class="btn-close p-[10px]">
+        <i class="fa-solid fa-xmark"></i>
+      </button>
+    </div>
+    <div class="popup-1__body p-[10px]">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta explicabo vitae natus ipsa quaerat soluta, unde aliquid placeat iste voluptas amet doloremque commodi at odit asperiores, quod maiores exercitationem debitis.
+    </div>
+  </div>
+</div>
+
+<section class="section-1">
+  <div class="container mx-auto py-[10px]">
+    <button type="button" class="btn-show-popup-1 inline-block px-6 py-2.5 bg-blue-600 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out"><i class="fa-solid fa-fire"></i> 팝업열기</button>
+
+    <hr class="my-[10px]">
+
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio consequuntur earum eveniet atque doloribus temporibus exercitationem. Quo similique reiciendis molestiae corporis officia quisquam ad. Provident quidem sunt autem neque atque?
+  </div>
+</section>
+
+<section class="section-2">
+  <div class="container mx-auto py-[10px]">
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio consequuntur earum eveniet atque doloribus temporibus exercitationem. Quo similique reiciendis molestiae corporis officia quisquam ad. Provident quidem sunt autem neque atque?
+  </div>
+</section>
+
+<section class="section-3">
+  <div class="container mx-auto py-[10px]">
+    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nesciunt quaerat repellendus ad ipsa molestiae animi qui vel voluptates dolor accusantium, corporis cumque quia. Illum tempora recusandae sint excepturi iusto placeat.
+    Inventore perspiciatis laboriosam similique voluptate laborum cupiditate amet totam, dolorum ratione omnis veritatis possimus eligendi. Dolorem rerum est veniam, nihil consequatur eos, voluptatum ab in numquam temporibus qui iusto explicabo!
+    Ut repellat velit quos. Ipsa ex doloremque, minus unde dolore dignissimos. Saepe reiciendis, quae sunt laboriosam, quos rerum rem et tempore obcaecati nulla libero placeat eveniet consequatur ullam pariatur provident.
+    Voluptates eum amet voluptate neque architecto possimus nobis necessitatibus iste ipsum molestias incidunt vero reiciendis, quia, consequatur nemo delectus voluptatum saepe, cupiditate voluptatem itaque fuga voluptas cumque. Unde, obcaecati temporibus!
+    Asperiores, aliquid? Est dicta ea illo, deserunt earum debitis iure temporibus, ex ut, quo vel accusantium! Quam fugit provident vitae, tempore tenetur quis, libero, repellendus alias dolores cumque laudantium delectus!
+    Itaque ipsum suscipit odit, repudiandae mollitia nobis laboriosam soluta explicabo, ad, numquam debitis praesentium nostrum odio! Deleniti sapiente repudiandae magni ea tempore voluptas? Voluptates iure voluptatem, quasi saepe nulla cum.
+    Quos, sed necessitatibus accusamus consequatur nam velit quas in earum eveniet iure, quam commodi labore doloribus amet nostrum nulla aperiam, quasi odit fugit deserunt at saepe dolorum magni dolore! Dicta?
+    A adipisci illo deserunt eveniet beatae, quaerat tempora ratione dicta est. Optio, molestiae dolore cum, aliquid quaerat cumque ratione quis facere, eaque asperiores ipsam corrupti? Odit, nemo aspernatur? Quisquam, id!
+    Dolor nulla cupiditate aperiam pariatur blanditiis magni nesciunt provident. Suscipit, praesentium sequi eligendi numquam soluta dolore non eveniet, officiis nam in sed voluptates nostrum quod asperiores rerum ex itaque! Culpa?
+    At, magnam quisquam necessitatibus aperiam iure sunt a corporis expedita, rem facere eius, fuga totam id amet! Nulla et illo, eligendi ut expedita tempore reprehenderit tenetur inventore? Deleniti, architecto assumenda.
+  </div>
+</section>
+
+
+<!-- 제이쿼리 불러오기 -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+<!-- 폰트어썸 불러오기 -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+
+<!-- 테일윈드 불러오기 -->
+<script src="https://cdn.tailwindcss.com"></script>
+<script>
+  $(".btn-close").click(function () {
+  $(".popup-1").addClass("hidden");
+});
+
+$(".btn-show-popup-1").click(function () {
+  $(".popup-1").removeClass("hidden");
+});
+
+</script>
