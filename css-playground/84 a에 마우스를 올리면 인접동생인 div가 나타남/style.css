@@ -1,0 +1,15 @@
+/* div:nth-child(2) {
+  display:none;
+} */
+
+a + div {
+  display:none;
+}
+a:hover + div {
+  display:block;
+}
+
+/* 동생들
+a ~ div {
+  display: none;
+} */
