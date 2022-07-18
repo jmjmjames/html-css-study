@@ -1,0 +1,81 @@
+/* 노말라이즈 */
+body,
+ul,
+li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+/* 라이브러리 */
+.inline-grid {
+  font-size: 0;
+}
+
+.inline-grid > * {
+  display: inline-block;
+  vertical-align: top;
+  font-size: 1rem;
+}
+
+.w-1\/6 {
+  width: calc(100% / 6);
+}
+
+.w-2\/6 {
+  width: calc(100% / 6 * 2);
+}
+
+.w-3\/6 {
+  width: calc(100% / 6 * 3);
+}
+
+.w-4\/6 {
+  width: calc(100% / 6 * 4);
+}
+
+.w-5\/6 {
+  width: calc(100% / 6 * 5);
+}
+
+.w-full {
+  width: 100%;
+}
+
+/* 커스텀 */
+
+.box-1 {
+  border: 10px solid red;
+}
+
+.box-1 > div {
+  height: 300px;
+}
+
+.box-1 > div:nth-child(1) {
+  background-color: red;
+}
+
+.box-1 > div:nth-child(2) {
+  background-color: orange;
+}
+
+.box-1 > div:nth-child(3) {
+  background-color: yellow;
+}
+
+.box-1 > div:nth-child(4) {
+  background-color: green;
+}
+
+.box-1 > div:nth-child(5) {
+  background-color: blue;
+}
+
+.box-1 > div:nth-child(6) {
+  background-color: navy;
+}
+
+.box-1 > div:nth-child(7) {
+  background-color: purple;
+}
